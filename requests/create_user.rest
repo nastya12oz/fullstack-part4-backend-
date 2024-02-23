@@ -1,0 +1,22 @@
+# Create a new user
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username": "tttt",
+  "name": "N",
+  "password": "1ettt"
+}
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username": "Masha",
+  "name": "Test User",
+  "password": "testpassword"
+}
+

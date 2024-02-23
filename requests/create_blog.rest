@@ -1,10 +1,25 @@
 ### Create new blog post
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Rfd2l0aF90b2tlbiIsImlkIjoiNjVkOTAwMjQ5MTAyNjdlZDJkZTk2ZDk0IiwiaWF0IjoxNzA4NzIwMjU2fQ.DB4AU8WQR78UVOoV8452HWYGbSnyoIkd5CwJe8-NSKg
 
 {
-  "title": "Lina polina",
-  "author": "my therapist",
+  "title": "Nastya mordastya",
+  "author": "memememe",
   "url": "http://www.example.com",
-  "likes": 666
+  "likes": 1334
+}
+
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc2hhIiwiaWQiOiI2NWQ5MmQyY2I2NmIwZGM2MjE5MjA4NWIiLCJpYXQiOjE3MDg3MzE3MDV9.BdmT_3OGIfAUNFGlIalkSLhG3T3OmS37xSiBi3mhPpA
+
+{
+  "title": "Masha Blog",
+  "author": "Masha Author",
+  "url": "http://www.masha.com",
+  "likes": 222
 }
